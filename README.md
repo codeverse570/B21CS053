@@ -130,8 +130,11 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 12) In the XV6 operating system, a process can be in one of the following states: i) unused ii)embryo iii)Runnable iv)zombie v)Running
 
 13) The file system in XV6 is a simple file system (SFS) and follows a hierarchical structure. Key components include:
+    
 i)Superblock: Contains information about the file system, such as the size of the file system, the size of the inode and data block bitmaps, and the number of inodes.
+
 ii)Inodes: Each file and directory in XV6 is represented by an inode, which contains metadata about the file or directory, including permissions, size, and pointers to data blocks.
+
 iii)Data Blocks: Store the actual file data or directory contents.
 iv)Directory Entries: Represent the mapping between filenames and inodes. Directories are special files that contain these entries.
 
